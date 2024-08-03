@@ -58,4 +58,21 @@ To utilize the Multi-Head RAG Strategy and the get_retrieved_chunks function, fo
    4.	Instantiate the Strategy: Create an instance of MultiHeadStrategy with appropriate parameters, such as the name of the strategy, the vector database instance, the layer for embeddings, and the weight function.
    5.	Execute the Retrieval: Call the get_retrieved_chunks function with your data and queries to obtain the top relevant documents for each query.
 
- 
+
+
+## Installation
+
+Follow these steps to clone the repository and run the project:
+
+### Clone the Repository
+
+1. Open your command line interface.
+2. Run the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/anirudh-8985/Multi-Head-RAG
+
+3. To run the application, execute the following command:
+   	Note : Update your database credentials in db_store.py
+   ```bash
+   python mrag.py
